@@ -3,11 +3,12 @@ confirm_os_window_close 0
 # include colors-kitty.conf
 include colors.conf
 cursor_trail 10
+cursor_trail_threshold 0
 cursor_trail_decay 0.01 0.05
 cursor_shape block
 cursor_stop_blinking_after 0
 cursor_shape_unfocused unchanged
-font_size 11.0
+font_size 12.0
 cursor_blink_interval 0.5
 window_padding_width 5
 # font_family Code New Roman
@@ -2661,7 +2662,7 @@ background_blur 30
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="SF Mono"
+font_family      family="CommitMono Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto

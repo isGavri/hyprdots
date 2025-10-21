@@ -22,11 +22,16 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                        "JetBrains Mono Nerd Font 10";
-    background:                  #1D2021BF;
+    // background:                  #07070555;
+    background:                  #0A0E0888;
+
     background-alt:              #1D2021BF;
-    foreground:                  #F9E2AF;
+    // foreground:                  #F9E2AF;
+    foreground:                  #bbbcaa;
     foreground-selected:         #1D2324;
-    selected:                    #F9E2AF;
+    // selected:                    #F9E2AF;
+    selected:                    #bbbcaa;
+
     active:                      #2E3F34;
     urgent:                      #D08261;
 }
@@ -72,7 +77,7 @@ inputbar {
     spacing:                     10px;
     padding:                     80px 60px;
     background-color:            transparent;
-    background-image:            url("~/Pictures/Wallpapers/sky.jpg", width);
+    background-image:            url("~/Pictures/Wallpapers/img1.wallspic.com-macbook-apples-operating_system-atmosphere-cloud-5120x2880.jpg", width);
     text-color:                  @foreground;
     orientation:                 horizontal;
     children:                    [ "textbox-prompt-colon", "entry", "dummy", "mode-switcher" ];
