@@ -2,7 +2,7 @@
 ## style file for the OSD
 
 ## on which height to show the OSD
-top_margin = 0.93
+top_margin = 0.90
 # top_margin = 0.04
 
 ## The maximum volume that can be reached in %

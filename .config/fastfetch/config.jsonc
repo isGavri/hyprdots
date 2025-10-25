@@ -1,49 +1,51 @@
-//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
-//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
-//  |   __|     |__   | | | |   __|   __| | | |   --|     |
-//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  HYPRLAND
-//
-//  by Bina
-
-
 {
+    // "logo": {
+    // 	"source": "~/.config/fastfetch/yellow.jpg",
+    // 	"type": "kitty",
+    // 	"height": 16,
+    // 	"padding": {
+    // 		"top": 0,
+    //     "right": 8
+    // 	}
+    // },
     "logo": {
-    	"source": "~/.config/fastfetch/yellow.jpg",
-    	"type": "kitty",
-    	"height": 16,
-    	"padding": {
-    		"top": 0,
-        "right": 8
-    	}
-    },
+    "type": "none"
+  },
     "display": {
         "separator": "- "
     },
     "modules": [
 
+	// {
+	//            "type": "custom",
+	//            "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  "
+	//        },
+  "break",
 	{
             "type": "custom",
-            "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  "
+            "format": "   \u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[34m  \u001b[35m  \u001b[35m  \u001b[36m  \u001b[36m  \u001b[35m  \u001b[35m  \u001b[34m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[31m  "
         },
+
 	"break",
-	{
-            "type": "title",
-            "keyWidth": 10
-        },
-        "break",
+	// {
+	//            "type": "title",
+	//            "keyWidth": 10
+	//        },
         {
             "type": "os",
+            "format": "{name}",
             "key": " ",
             "keyColor": "34",  // = color4
         },
         {
             "type": "kernel",
+            "format": "{sysname} Zen",
             "key": " ",
             "keyColor": "34",
         },
         {
             "type": "packages",
-            "format": "{} (pacman)",
+            "format": "{} pacman",
             "key": " ",
             "keyColor": "34",  
         },
@@ -59,11 +61,13 @@
         },
         {
             "type": "wm",
+            "format": "{pretty-name}",
             "key": " ",
             "keyColor": "34", 
         },
         {
-            "type": "cursor",
+            "type": "publicip",
+            "format": "{ip}",
             "key": " ",
             "keyColor": "34", 
         },
@@ -85,10 +89,14 @@
         },
 
         "break",
-        {
+  {
             "type": "custom",
-            "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  "
+            "format": "   \u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[34m  \u001b[35m  \u001b[35m  \u001b[36m  \u001b[36m  \u001b[35m  \u001b[35m  \u001b[34m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[31m  "
         },
+      // {
+      //       "type": "custom",
+      //       "format": "\u001b[31m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  "
+      //   },
         "break",
         "break",
     ]

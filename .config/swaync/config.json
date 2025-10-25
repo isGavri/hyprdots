@@ -71,7 +71,7 @@
 
                 {
                     "label": "",
-                    "command": "kitty nmtui"
+                    "command": "nm-connection-editor"
                 },
                 {
                     "label": "",
@@ -90,11 +90,11 @@
 
                 {
                     "label": "󰈙",
-                    "command": "kitty bash -i -c 'Docs'"
+                    "command": "libreoffice"
                 },
                 {
                     "label": "",
-                    "command": "kitty bash -i -c 'Settings'"
+                    "command": "kitty nvim ~/.config/hypr/hyprland.conf"
                     
                 },
                 {
