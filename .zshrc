@@ -23,7 +23,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 plugins=(git archlinux colorize colored-man-pages)
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 bindkey              '^I'         menu-complete
 bindkey "$terminfo[kcbt]" reverse-menu-complete
 
@@ -34,4 +34,4 @@ alias grep="grep --color=auto"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 eval "$(zoxide init zsh)" 2>/dev/null
 
-. "$HOME/.local/share/../bin/env"
+# . "$HOME/.local/share/../bin/env"

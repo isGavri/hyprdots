@@ -1,0 +1,26 @@
+# ~/.config/uwsm/env
+# ───────────────────────────────
+# General desktop environment exports for uwsm + Hyprland
+
+# Cursor
+export XCURSOR_SIZE=24
+export HYPRCURSOR_SIZE=24
+export XCURSOR_THEME=rose-pine-hyprcursor
+
+# GTK and Qt theming
+export GTK_THEME=WhiteSur-Dark-grey
+export QT_QPA_PLATFORMTHEME=gtk3,qt5ct
+export GTK_ICON_THEME=WhiteSur-grey-dark
+export GTK_CURSOR_THEME=rose-pine-hyprcursor
+export GTK_APPLICATION_PREFER_DARK_THEME=1
+
+# Wayland (for apps like Firefox, Electron, etc.)
+export MOZ_ENABLE_WAYLAND=1
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=Hyprland
+export QT_QPA_PLATFORM=wayland
+
+# Optional: for portals and polkit
+export XDG_DESKTOP_PORTAL_DIR=/usr/share/xdg-desktop-portal
+
+export EDITOR=nvim
